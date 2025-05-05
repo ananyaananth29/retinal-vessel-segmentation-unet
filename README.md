@@ -1,7 +1,3 @@
-Here’s a clear and engaging `README.md` file tailored for your retinal vessel segmentation project using U-Net:
-
----
-
 ````markdown
 # 🧠 Retinal Vessel Segmentation with U-Net
 
@@ -127,8 +123,8 @@ We analyzed how architectural differences influence the segmentation of retinal 
 For any questions or collaboration ideas, feel free to reach out!
 
 **\[Your Name]**
-\[Your Email]
-\[LinkedIn or GitHub link]
+\Ananya Ananth
+\https://www.linkedin.com/in/ananyaananth/
 
 ```
 
