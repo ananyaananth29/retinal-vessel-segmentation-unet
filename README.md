@@ -1,11 +1,11 @@
-````markdown
-# 🧠 Retinal Vessel Segmentation with U-Net
+
+# Retinal Vessel Segmentation with U-Net
 
 This repository contains code and analysis for segmenting blood vessels in retinal images using U-Net, implemented in PyTorch. The project is based on the DRIVE and STARE datasets and explores how skip connections affect model performance in identifying fine vascular structures.
 
 ---
 
-## 📁 Project Overview
+##  Project Overview
 
 This project was completed as part of **Assignment 3** for a deep learning course. The task involved implementing, training, and evaluating two U-Net variants:
 
@@ -16,16 +16,14 @@ We analyzed how architectural differences influence the segmentation of retinal 
 
 ---
 
-## 🧪 Datasets
+##  Datasets
 
 - **DRIVE**: Digital Retinal Images for Vessel Extraction  
 - **STARE**: Structured Analysis of the Retina  
 
-> Datasets are preloaded on CHPC scratch disks and were used as provided—no modifications or external data used.
-
 ---
 
-## 🚀 Features
+##  Features
 
 - Full **U-Net architecture** with configurable depth and skip connections
 - **Data augmentation**: horizontal and vertical flipping
@@ -35,7 +33,7 @@ We analyzed how architectural differences influence the segmentation of retinal 
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python 3.x
 - PyTorch ≥ 1.7
@@ -45,7 +43,7 @@ We analyzed how architectural differences influence the segmentation of retinal 
 
 ---
 
-## 📊 Results
+##  Results
 
 | Model Variant         | Validation F1 Score | Observations                               |
 |----------------------|---------------------|--------------------------------------------|
@@ -54,7 +52,7 @@ We analyzed how architectural differences influence the segmentation of retinal 
 
 ---
 
-## 📸 Sample Outputs
+##  Sample Outputs
 
 | Ground Truth         | Predicted (U-Net)   |
 |----------------------|---------------------|
@@ -64,7 +62,7 @@ We analyzed how architectural differences influence the segmentation of retinal 
 
 ---
 
-## 🧠 Key Insights
+##  Key Insights
 
 - **Skip connections are critical** for preserving spatial resolution in segmentation tasks.
 - **Weighted loss functions** significantly improve performance on imbalanced datasets.
@@ -72,7 +70,7 @@ We analyzed how architectural differences influence the segmentation of retinal 
 
 ---
 
-## 📂 File Structure
+##  File Structure
 
 ```bash
 ├── model_ex13.py              # U-Net with skip connections
@@ -85,7 +83,7 @@ We analyzed how architectural differences influence the segmentation of retinal 
 
 ---
 
-## 🧑‍💻 Setup Instructions
+##  Setup Instructions
 
 1. Create a virtual environment:
 
@@ -100,17 +98,16 @@ We analyzed how architectural differences influence the segmentation of retinal 
    pip install -r requirements.txt
    ```
 
-3. (CHPC Users) Load CUDA and modules as per instructions provided in assignment.
 
-4. Run training:
+3. Run training:
 
    ```bash
-   python train.py
+   sbatch run.slurm
    ```
 
 ---
 
-## 📌 Acknowledgments
+##  Acknowledgments
 
 * Based on coursework at the University of Utah.
 * Thanks to the creators of the DRIVE and STARE datasets.
@@ -118,17 +115,10 @@ We analyzed how architectural differences influence the segmentation of retinal 
 
 ---
 
-## 📬 Contact
+##  Contact
 
 For any questions or collaboration ideas, feel free to reach out!
 
-**\[Your Name]**
-\Ananya Ananth
+**\Ananya Ananth**
+\ananya.ananth.jain@gmail.com
 \https://www.linkedin.com/in/ananyaananth/
-
-```
-
----
-
-Would you like me to generate sample `requirements.txt` or code documentation headers too?
-```
