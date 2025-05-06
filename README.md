@@ -75,8 +75,7 @@ We analyzed how architectural differences influence the segmentation of retinal 
 ```bash
 ├── model_ex13.py              # U-Net with skip connections
 ├── model_ex15.py              # U-Net without skip connections
-├── train.py                   # Training loop and evaluation
-├── utils.py                   # Data loading, augmentation, etc.
+├── proj3.py                   # Data loading, augmentation, Training loop and evaluation
 ├── Assignment 3 Report.pdf    # Full report with results and analysis
 ├── README.md                  # This file
 ````
