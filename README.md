@@ -54,11 +54,8 @@ We analyzed how architectural differences influence the segmentation of retinal 
 
 ##  Sample Outputs
 
-| Ground Truth         | Predicted (U-Net)   |
-|----------------------|---------------------|
-| ![gt](images/gt1.png)| ![pred](images/pred1.png)|
-
-*(Note: Replace with your actual plots if uploading)*
+model_13-UNet: ![image](https://github.com/user-attachments/assets/789417c6-5f73-4a34-a445-1b9e85627fdd)
+model_15-UNet w/o skip: ![image](https://github.com/user-attachments/assets/5af15e36-722d-48f6-ab14-c721aef510f1)
 
 ---
 
@@ -118,6 +115,6 @@ We analyzed how architectural differences influence the segmentation of retinal 
 
 For any questions or collaboration ideas, feel free to reach out!
 
-**\Ananya Ananth**
-\ananya.ananth.jain@gmail.com
-\https://www.linkedin.com/in/ananyaananth/
+**Ananya Ananth** | 
+ananya.ananth.jain@gmail.com | 
+https://www.linkedin.com/in/ananyaananth/
