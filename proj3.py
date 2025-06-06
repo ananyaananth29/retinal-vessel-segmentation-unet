@@ -524,7 +524,7 @@ def training_stage(epoch, optimizer, model, train_loader, val_loader):
         # Forward pass
         predictions = model(data)
 
-        # Compute loss using provided mask (you should have defined `negative_positive_ratio` earlier)
+        # Compute loss using provided mask (we have defined `negative_positive_ratio` earlier)
         loss_value = weighted_binary_loss(predictions, segmentation, mask, negative_positive_ratio)
 
         # Backpropagation
@@ -753,7 +753,7 @@ with torch.no_grad():
         # Print for qualitative analysis
         false_positives = ((pred_np == 1) & (gt_np == 0)).sum()
         false_negatives = ((pred_np == 0) & (gt_np == 1)).sum()
-        print(f"\n🩺 [Validation Sample {idx}]")
+        print(f"\n[Validation Sample {idx}]")
         print(f"Model: U-Net Without Skip Connections")
         print(f"False Positives: {false_positives}")
         print(f"False Negatives: {false_negatives}")
